@@ -10,7 +10,6 @@ The repository is structured to provide a thorough understanding of the GRU mode
 ## Contents
 - **Models**: Trained models for various datasets.
 - **Datasets**: Description of datasets used in the project (include any instructions for accessing the datasets if they are not directly provided in the repo).
-- **Source Code**: The core codebase of the project.
 - **Notebooks**: Jupyter notebooks for demonstrations and tutorials.
 - **Documentation**: Additional in-depth documentation.
 - **Examples**: Sample usage and quick start guides.
