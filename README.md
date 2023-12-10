@@ -5,7 +5,7 @@ This repository hosts a comprehensive suite of resources for the Gated Recurrent
 
 The repository is structured to provide a thorough understanding of the GRU model's functionality and its application in UAV trajectory prediction, addressing challenges in trajectories with shapes similar to circles and inifinty wirh various and large datasets. Additionally, it includes Jupyter notebooks demonstrating the training process, model evaluation, and practical examples to facilitate ease of use and replication of results. This project aims to contribute to the field of UAV navigation and autonomous flight systems by leveraging the advanced capabilities of GRU in handling complex, sequential data.
 
-![GRU Model Flowchart](images/GRU.drawi.png)
+![GRU Model Flowchart](images/GRU_arc.png)
 
 ## Contents
 - **Models**: Trained models for various datasets.
