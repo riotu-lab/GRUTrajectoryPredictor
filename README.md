@@ -7,27 +7,5 @@ The repository is structured to provide a thorough understanding of the GRU mode
 
 ![GRU Model Flowchart](images/GRU_arch.png)
 
-## Contents
-- **Models**: Trained models for various datasets.
-- **Datasets**: Description of datasets used in the project (include any instructions for accessing the datasets if they are not directly provided in the repo).
-- **Notebooks**: Jupyter notebooks for demonstrations and tutorials.
-- **Documentation**: Additional in-depth documentation.
-- **Examples**: Sample usage and quick start guides.
 
-## Installation
-Instructions for setting up the project environment and installing dependencies.
 
-## Usage
-Step-by-step guide on how to use the models or run the scripts.
-
-## Contributing
-Guidelines for contributing to the project (if open for contributions).
-
-## License
-Specify the license under which the project is released.
-
-## Acknowledgements
-Credits to contributors, data sources, or any other acknowledgments.
-
-## Contact
-Your contact information or links to your professional profiles for further queries.
