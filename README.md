@@ -1,11 +1,30 @@
+# GRUTrajectoryPredictor: GRU-Based UAV Trajectory Prediction
 
-# GRU-Based UAV Trajectory Prediction
-
-This repository hosts a comprehensive suite of resources for the Gated Recurrent Unit (GRU) model tailored for predicting UAV (Unmanned Aerial Vehicle) trajectories. It encompasses trained models on various datasets including simulations and real-world scenarios, detailed GRU explanations, and source code. 
-
-The repository is structured to provide a thorough understanding of the GRU model's functionality and its application in UAV trajectory prediction, addressing challenges in trajectories with shapes similar to circles and inifinty wirh various and large datasets. Additionally, it includes Jupyter notebooks demonstrating the training process, model evaluation, and practical examples to facilitate ease of use and replication of results. This project aims to contribute to the field of UAV navigation and autonomous flight systems by leveraging the advanced capabilities of GRU in handling complex, sequential data.
+## Overview
+GRUTrajectoryPredictor is a comprehensive repository for predicting UAV trajectories using Gated Recurrent Unit (GRU) neural networks. This repository is organized into three main directories: `Models`, `Notebooks`, and `Images`, each serving a specific purpose in the workflow of training, testing, and visualizing GRU models for UAV trajectory prediction.
 
 ![GRU Model Flowchart](images/GRU_arch.png)
 
+## Directory Structure
+
+### 1. Models
+This directory contains GRU models trained on different datasets and with varying model complexities. The models are organized into four subdirectories:
+
+- **GRU_With_Mix_Dataset_MaxNorm**: Contains GRU models trained on a mixed dataset with Max Normalization.
+- **GRU_With_Mix_Dataset_WhitingNorm**: Houses models trained on a mixed dataset with Whiting Normalization.
+- **GRU_With_Simulation_Dataset_MaxNorm**: Includes models trained on a simulation dataset with Max Normalization.
+- **GRU_With_Simulation_Dataset_WhitingNorm**: Contains models trained on a simulation dataset with Whiting Normalization.
+
+Each of these subdirectories includes trained GRU models for different levels of model complexity: 64, 128, 256 hidden dimensions, and 2, 3, 5 layers respectively, predicting both position and velocity trajectories.
+
+### 2. Notebooks
+The `Notebooks` directory contains two key Python scripts:
+- `train.py`: Script for training the GRU models on the respective datasets.
+- `test.py`: Utilized for testing the models, requiring the class `TrajectoryPredictor(torch.nn.Module)` to run the model path files located in the `Models` directory.
+
+## Usage
+To use the models for trajectory prediction:
+1. Train the model using `train.py` in the `Notebooks` directory.
+2. Test the trained models using `test.py`, ensuring the `TrajectoryPredictor` class is correctly implemented.
 
 
